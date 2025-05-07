@@ -16,15 +16,30 @@
 
 <br>
 
-## [git add (파일명)]
+## [git add]
 * 어떤 파일 저장할지 선택,준비
 * git commit으로 변경사항 저장
 
+사용예시
+```
+git add 파일 이름 : 특정 파일만 스테이지에 추가
+git add . : 현재 디렉터리의 모든 변경 사항 추가
+git add -A : 모든 변경 사항 (삭제포함) 추가
+git add *.js : 모든 js 파일 추가
+```
+
 <br>
 
-## [git commint -m]
+## [git commit]
 * 지금까지 한 변경사항 저장 
 * (-m)을 쓰면서 변경이 어떤 내용인지 기록
+
+사용 예시
+```
+echo "Hello" -> hello.txt
+git add hello.txt : 변경 사항 스테이징
+git commit -m "Add hello.txt file : 커밋 생성
+```
 
 <br>
 
