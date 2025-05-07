@@ -1,6 +1,6 @@
 # git 명령어
 ## [git init]
-* git을 처음 시작할떄 사용하는 명령어
+* git을 처음 시작할때때 사용하는 명령어
 * 이 폴더를 git으로 관리 하겠다 선언
 * git init 실행=> (.git)폴더가 생김=>git의 중심 저장소
 
@@ -57,6 +57,11 @@ branch -d:브랜치 삭제
 ## [git push]
 * 내 컴퓨터에서 작업한 것을 github같은 원격 저장소에 업로드하는 명령어
 * 작업 내용을 github로 밀어 넣기
+
+#### 사용법
+```
+git push origin (main)or(master)
+```
 
 #### 왜 쓰나욥?
 * 백업 용도
