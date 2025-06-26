@@ -1,0 +1,101 @@
+body{
+    background-color: #1E1f20;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+}
+.title{
+    font-size:36px;
+}
+.title p{
+    margin:14px 0px;
+}
+
+.box{
+    border-radius: 28px;
+    margin-left:190px;
+    margin-right:190px;
+    padding: 36px;
+    background-color: #0e0e0e;
+    color: #e3e3e3;
+    margin-top:150px;
+    height: 340px;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    display: flex;
+    gap: 35px;
+}
+
+.box-left{
+    width: 464px;
+    display:flex;
+    flex-direction: column;
+}
+
+.box-right{
+    width:464px;
+    display:flex ;
+    flex-direction: column;
+    margin-top:90px
+}
+.input1 input{
+    padding:13px 15px;
+    border-radius: 4px;
+    width: 435px;
+    height:28px;
+    font-size:17px;
+    background-color: #0e0e0e;
+    border: 0.5px solid rgb(227 227 227);
+    color:white;
+}
+.forgot-email{
+    padding-top: 9px;
+    padding-bottom:3px;
+    font-size:14px;
+}
+a.forgot-email{
+    color: rgb(168 199 250 / 1);
+}
+.text2{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size:14px;
+    margin-top:28px;
+}
+.button{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    color:#a8c7fa;
+    font-size: 14px;
+}
+.next{
+    border-radius:30px;
+    height:43px; 
+    background-color: #a8c7fa;
+    width: 73px;
+    border:none;
+}
+.signup{
+    margin-right:30px;
+    display:flex;
+    align-items: center;
+}
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:30px 200px;
+}
+.footer-right a {
+    padding: 8px 12px;
+    display: inline-block;
+    color:#e3e3e3;
+    font-size:12px;
+}
+.footer-left{
+    align-items: center;
+}
+
