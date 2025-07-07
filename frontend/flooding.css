@@ -1,0 +1,114 @@
+body {
+    background: #f6f6f6;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.flex {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.flex-id input,
+.flex-pw input {
+    width: 100%;
+    padding: 16px 12px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.flex-pw {
+    position: relative;
+}
+
+.flex-bottom {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.flex-bottom button {
+    width: 100%;
+    padding: 16px 0;
+    background: #5E7EF3;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.flex-bottom button:hover {
+    background: #4666d8;
+}
+
+.flex-join {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.flex-join-text {
+    color: #bdbdbd;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    white-space: nowrap;
+    gap: 13px;
+}
+
+.flex-join a {
+    color: #bdbdbd;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+    gap: 13px;
+}
+
+.flex-find {
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-find a {
+    color: #94a9f7;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 450;
+    white-space: nowrap;
+}
