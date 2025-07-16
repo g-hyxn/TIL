@@ -1,0 +1,14 @@
+body{
+    background-color: #1F1E2A   ;
+    margin:0px;
+}
+
+.board{
+    background-color: #17161E;
+
+}
+
+button{
+    border:none;
+    background-color: #17161E;
+}

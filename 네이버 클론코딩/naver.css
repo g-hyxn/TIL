@@ -1,0 +1,187 @@
+body{
+    margin:0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-family: -apple-system,BlinkMacSystemFont,helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom:48px;
+}
+
+.header-inner{
+    display: flex;
+    justify-content: space-between; /* 또는 center / flex-start / flex-end */
+    align-items: center; /* 수직 가운데 정렬 */
+    height: 138px; /* 이미지에서 높이 확인됨 */
+    padding: 0 20px; /* 좌우 여백 조정 */
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top:108px;
+}
+
+.switch{
+    display:flex;
+    align-items:end;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.add{
+    width:400px;
+}
+
+.inner{
+    border-radius: 18px;
+    padding:24px;
+    border:1px solid #c5ccd2;
+    width: 5px10x;
+}
+
+.login-box{
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    margin-top:20px;
+}
+
+.id {
+    width: 397px;
+    height: 58px;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #c5ccd2;
+    padding-left: 15px;
+    transition: all 0.1s; 
+}
+
+.id:focus {
+    border: 1.5px solid #09aa5c; 
+    outline: none; 
+}
+
+.id::placeholder{
+    font-size:14px;
+}
+
+.pw {
+    width: 397px;
+    height: 58px;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #c5ccd2;
+    padding-left: 15px;
+    transition: all 0.1s;
+}
+
+.pw:focus {
+    border: 1.5px solid#09aa5c; /* 포커스 시 테두리 색 변경 */
+    outline: none; 
+}
+
+
+
+.login-keep{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:12px;
+}
+
+.find-wrap{
+    align-items: center;
+}
+
+.keep-text{
+    color:#767678;
+    font:14px;
+}
+
+.ip-check2{
+    padding-right: 4px;
+    color:#303038;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login-click{
+    width:410px;
+    height: 50px;
+    background-color: #a5adb8;
+    color:white;
+    border:none;
+    margin-top: 12px;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.login-setting{
+    display:flex;
+    flex-wrap: nowrap;
+    color:#767678;
+}
+
+.text{
+    margin:14px 6px;
+}
+
+.hr1{
+    width:100px;
+    margin-top:16px;
+    color: #efeff0;
+}
+
+.passkey-botton{
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: 1px solid #09aa5c;
+    margin-top:10px;
+    width:410px;
+    padding:12px;
+}
+
+.passkey-text{
+    color:#09aa5c;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.find-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 48px;
+}
+
+.find_text{
+    color:#767678;
+}
+
+.hr2{
+    width:500px;
+}
+
+.ad-image{
+    width:460px;
+    height:146px;
+}
+
+footer{
+    margin:48px 0px 32px;
+}
+
+.footer_item nlog-click{
+    color:#767678;
+}
