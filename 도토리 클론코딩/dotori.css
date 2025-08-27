@@ -1,14 +1,21 @@
 body{
     background-color: #1F1E2A   ;
     margin:0px;
+    display:flex;
+    flex-direction: row;
 }
 
 .board{
     background-color: #17161E;
-
+    display:flex;
+    flex-direction: column;
+    width:66px;
+    height:780px;
+    align-items: center;
 }
 
 button{
     border:none;
     background-color: #17161E;
 }
+
